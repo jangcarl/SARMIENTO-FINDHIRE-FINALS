@@ -1,6 +1,6 @@
 <?php
-require_once 'dbConfig.php';
-require_once 'models.php';
+require_once '../dbConfig.php';
+require_once '../models.php';
 session_start(); // Ensure session is started
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
