@@ -1,7 +1,7 @@
 <?php
-require_once 'core/dbConfig.php';
-require_once 'core/models.php'; 
-require_once 'core/handleForms.php';
+require_once '../core/dbConfig.php';
+require_once '../core/models.php'; 
+require_once '../core/handleForms.php';
 
 if (isset($_SESSION['user'])) {
     header("Location: " . ($_SESSION['user']['role'] === 'HR' ? 'hr_dashboard.php' : 'applicant_dashboard.php'));
