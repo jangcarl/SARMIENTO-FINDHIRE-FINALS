@@ -1,5 +1,5 @@
 <?php
-require_once 'dbConfig.php';
+require_once '../core/dbConfig.php';
 
 function authenticateUser($username, $password) {
     global $pdo;
