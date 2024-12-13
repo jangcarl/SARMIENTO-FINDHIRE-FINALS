@@ -17,7 +17,7 @@ $jobPosts = fetchJobPosts();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/application_dashboard.css">
+    <link rel="stylesheet" href="../styles/applicant_dashboard.css">
     <title>Applicant Dashboard - FindHire</title>
 </head>
 <body>
