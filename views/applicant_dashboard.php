@@ -1,6 +1,6 @@
 <?php
-require_once 'core/dbConfig.php';
-require_once 'core/models.php';
+require_once '../core/dbConfig.php';
+require_once '../core/models.php';
 
 if (!isset($_SESSION['user']) || $_SESSION['user']['role'] !== 'APPLICANT') {
     header('Location: ../authentication/login.php');
