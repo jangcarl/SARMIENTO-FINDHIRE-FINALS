@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Beige background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #2e8b57; /* Green color for headings */
+}
+
+a {
+    color: #2e8b57;
+}
